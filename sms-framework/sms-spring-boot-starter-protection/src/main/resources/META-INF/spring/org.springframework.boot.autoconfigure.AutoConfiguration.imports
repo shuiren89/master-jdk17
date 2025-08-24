@@ -1,0 +1,4 @@
+com.sms.ok.framework.idempotent.config.SmsIdempotentConfiguration
+com.sms.ok.framework.lock4j.config.SmsLock4jConfiguration
+com.sms.ok.framework.ratelimiter.config.SmsRateLimiterConfiguration
+com.sms.ok.framework.signature.config.SmsApiSignatureAutoConfiguration

@@ -1,0 +1,3 @@
+com.sms.ok.framework.datasource.config.SmsDataSourceAutoConfiguration
+com.sms.ok.framework.mybatis.config.SmsMybatisAutoConfiguration
+com.sms.ok.framework.translate.config.SmsTranslateAutoConfiguration

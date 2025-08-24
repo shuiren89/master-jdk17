@@ -1,0 +1,2 @@
+com.sms.ok.framework.datapermission.config.SmsDataPermissionAutoConfiguration
+com.sms.ok.framework.datapermission.config.SmsDeptDataPermissionAutoConfiguration

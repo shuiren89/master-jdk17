@@ -1,0 +1,3 @@
+com.sms.ok.framework.security.config.SmsSecurityAutoConfiguration
+com.sms.ok.framework.security.config.SmsWebSecurityConfigurerAdapter
+com.sms.ok.framework.operatelog.config.SmsOperateLogConfiguration
