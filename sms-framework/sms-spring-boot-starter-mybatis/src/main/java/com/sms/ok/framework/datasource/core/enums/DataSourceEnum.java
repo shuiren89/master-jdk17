@@ -6,7 +6,6 @@ package com.sms.ok.framework.datasource.core.enums;
  * 通过在方法上，使用 {@link com.baomidou.dynamic.datasource.annotation.DS} 注解，设置使用的数据源。
  * 注意，默认是 {@link #MASTER} 数据源
  *
- * 对应官方文档为 http://dynamic-datasource.com/guide/customize/Annotation.html
  */
 public interface DataSourceEnum {
 

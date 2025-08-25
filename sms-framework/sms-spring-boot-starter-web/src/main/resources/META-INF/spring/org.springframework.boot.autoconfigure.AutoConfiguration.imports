@@ -3,4 +3,3 @@ com.sms.ok.framework.jackson.config.SmsJacksonAutoConfiguration
 com.sms.ok.framework.swagger.config.SmsSwaggerAutoConfiguration
 com.sms.ok.framework.web.config.SmsWebAutoConfiguration
 com.sms.ok.framework.xss.config.SmsXssAutoConfiguration
-com.sms.ok.framework.banner.config.SmsBannerAutoConfiguration

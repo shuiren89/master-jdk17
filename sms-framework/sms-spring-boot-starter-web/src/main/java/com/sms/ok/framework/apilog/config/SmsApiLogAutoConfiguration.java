@@ -22,7 +22,7 @@ public class SmsApiLogAutoConfiguration implements WebMvcConfigurer {
      * 创建 ApiAccessLogFilter Bean，记录 API 请求日志
      */
     @Bean
-    @ConditionalOnProperty(prefix = "sms.access-log", value = "enable", matchIfMissing = true) // 允许使用 yudao.access-log.enable=false 禁用访问日志
+    @ConditionalOnProperty(prefix = "sms.access-log", value = "enable", matchIfMissing = true) // 允许使用 sms.access-log.enable=false 禁用访问日志
     public FilterRegistrationBean<ApiAccessLogFilter> apiAccessLogFilter(WebProperties webProperties,
                                                                          @Value("${spring.application.name}") String applicationName,
                                                                          ApiAccessLogCommonApi apiAccessLogApi) {

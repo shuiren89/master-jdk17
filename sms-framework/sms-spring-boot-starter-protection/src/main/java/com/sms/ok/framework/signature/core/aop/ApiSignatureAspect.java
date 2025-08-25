@@ -28,7 +28,6 @@ import static com.sms.ok.framework.common.exception.enums.GlobalErrorCodeConstan
 /**
  * 拦截声明了 {@link ApiSignature} 注解的方法，实现签名
  *
- * @author Zhougang
  */
 @Aspect
 @Slf4j

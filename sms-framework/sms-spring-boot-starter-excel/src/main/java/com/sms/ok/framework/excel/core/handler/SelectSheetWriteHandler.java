@@ -33,7 +33,6 @@ import static com.sms.ok.framework.common.util.collection.CollectionUtils.conver
 /**
  * 基于固定 sheet 实现下拉框
  *
- * @author HUIHUI
  */
 @Slf4j
 public class SelectSheetWriteHandler implements SheetWriteHandler {

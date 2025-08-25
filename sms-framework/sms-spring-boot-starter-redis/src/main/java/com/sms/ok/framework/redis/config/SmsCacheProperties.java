@@ -7,7 +7,6 @@ import org.springframework.validation.annotation.Validated;
 /**
  * Cache 配置项
  *
- * @author Wanwan
  */
 @ConfigurationProperties("sms.cache")
 @Data

@@ -15,12 +15,12 @@ import java.util.Optional;
 @AutoConfiguration
 @EnableScheduling // 开启 Spring 自带的定时任务
 @Slf4j
-public class YudaoQuartzAutoConfiguration {
+public class SmsQuartzAutoConfiguration {
 
     @Bean
     public SchedulerManager schedulerManager(Optional<Scheduler> scheduler) {
         if (!scheduler.isPresent()) {
-            log.info("[定时任务 - 已禁用][参考 https://doc.iocoder.cn/job/ 开启]");
+            log.info("[定时任务 - 已禁用]");
             return new SchedulerManager(null);
         }
         return new SchedulerManager(scheduler.get());

@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.ChineseNameDesens
 /**
  * {@link ChineseNameDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class ChineseNameDesensitization extends AbstractSliderDesensitizationHandler<ChineseNameDesensitize> {
 

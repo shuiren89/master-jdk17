@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.IdCardDesensitize
 /**
  * {@link IdCardDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class IdCardDesensitization extends AbstractSliderDesensitizationHandler<IdCardDesensitize> {
     @Override

@@ -1,2 +1,2 @@
-com.sms.ok.framework.tracer.config.YudaoTracerAutoConfiguration
-com.sms.ok.framework.tracer.config.YudaoMetricsAutoConfiguration
+com.sms.ok.framework.tracer.config.SmsTracerAutoConfiguration
+com.sms.ok.framework.tracer.config.SmsMetricsAutoConfiguration

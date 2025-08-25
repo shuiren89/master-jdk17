@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.CarLicenseDesensi
 /**
  * {@link CarLicenseDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class CarLicenseDesensitization extends AbstractSliderDesensitizationHandler<CarLicenseDesensitize> {
 

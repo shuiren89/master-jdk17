@@ -22,7 +22,6 @@ import static com.sms.ok.module.infra.dal.dataobject.logger.ApiAccessLogDO.RESUL
 /**
  * API 访问日志 Service 实现类
  *
- * @author 芋道源码
  */
 @Slf4j
 @Service

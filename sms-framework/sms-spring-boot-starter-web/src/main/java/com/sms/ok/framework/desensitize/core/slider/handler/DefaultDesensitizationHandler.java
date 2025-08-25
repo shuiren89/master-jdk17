@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.SliderDesensitize
 /**
  * {@link SliderDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class DefaultDesensitizationHandler extends AbstractSliderDesensitizationHandler<SliderDesensitize> {
 

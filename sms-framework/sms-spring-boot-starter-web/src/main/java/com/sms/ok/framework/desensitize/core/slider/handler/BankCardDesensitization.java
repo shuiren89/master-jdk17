@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.BankCardDesensiti
 /**
  * {@link BankCardDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class BankCardDesensitization extends AbstractSliderDesensitizationHandler<BankCardDesensitize> {
 

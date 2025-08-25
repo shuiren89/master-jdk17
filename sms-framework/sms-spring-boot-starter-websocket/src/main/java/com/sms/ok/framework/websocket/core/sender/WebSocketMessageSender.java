@@ -5,7 +5,6 @@ import com.sms.ok.framework.common.util.json.JsonUtils;
 /**
  * WebSocket 消息的发送器接口
  *
- * @author 芋道源码
  */
 public interface WebSocketMessageSender {
 

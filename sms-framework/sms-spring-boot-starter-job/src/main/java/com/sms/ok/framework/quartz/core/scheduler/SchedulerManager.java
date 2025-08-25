@@ -16,7 +16,6 @@ import static com.sms.ok.framework.common.exception.util.ServiceExceptionUtil.ex
  *
  * 另外，jobHandlerName 对应到 Spring Bean 的名字，直接调用
  *
- * @author 芋道源码
  */
 public class SchedulerManager {
 

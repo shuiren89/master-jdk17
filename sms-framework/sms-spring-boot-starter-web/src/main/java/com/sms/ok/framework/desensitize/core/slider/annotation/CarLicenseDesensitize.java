@@ -13,7 +13,6 @@ import java.lang.annotation.Target;
 /**
  * 车牌号
  *
- * @author gaibu
  */
 @Documented
 @Target({ElementType.FIELD})

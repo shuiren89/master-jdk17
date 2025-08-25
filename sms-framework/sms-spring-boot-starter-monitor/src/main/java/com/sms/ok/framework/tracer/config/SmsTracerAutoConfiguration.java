@@ -16,7 +16,6 @@ import org.springframework.context.annotation.Bean;
 /**
  * Tracer 配置类
  *
- * @author mashu
  */
 @AutoConfiguration
 @ConditionalOnClass(name = {
@@ -24,8 +23,8 @@ import org.springframework.context.annotation.Bean;
         "io.opentracing.Tracer"
 })
 @EnableConfigurationProperties(TracerProperties.class)
-@ConditionalOnProperty(prefix = "yudao.tracer", value = "enable", matchIfMissing = true)
-public class YudaoTracerAutoConfiguration {
+@ConditionalOnProperty(prefix = "sms.tracer", value = "enable", matchIfMissing = true)
+public class SmsTracerAutoConfiguration {
 
     @Bean
     public TracerProperties bizTracerProperties() {

@@ -26,9 +26,9 @@ import static java.io.File.separator;
 public class ProjectReactor {
 
     private static final String GROUP_ID = "com.sms.ok.framework.common";
-    private static final String ARTIFACT_ID = "yudao";
+    private static final String ARTIFACT_ID = "sms";
     private static final String PACKAGE_NAME = "com.sms.ok.framework";
-    private static final String TITLE = "芋道管理系统";
+    private static final String TITLE = "管理系统";
 
     /**
      * 白名单文件，不进行重写，避免出问题
@@ -46,7 +46,7 @@ public class ProjectReactor {
         String groupIdNew = "cn.star.gg";
         String artifactIdNew = "star";
         String packageNameNew = "cn.start.pp";
-        String titleNew = "土豆管理系统";
+        String titleNew = "XX管理系统";
         String projectBaseDirNew = projectBaseDir + "-new"; // 一键改名后，“新”项目所在的目录
         log.info("[main][检测新项目目录 ({})是否存在]", projectBaseDirNew);
         if (FileUtil.exist(projectBaseDirNew)) {

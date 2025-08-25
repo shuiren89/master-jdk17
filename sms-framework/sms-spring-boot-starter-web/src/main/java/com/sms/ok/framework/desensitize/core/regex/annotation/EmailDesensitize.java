@@ -13,7 +13,6 @@ import java.lang.annotation.Target;
 /**
  * 邮箱脱敏注解
  *
- * @author gaibu
  */
 @Documented
 @Target({ElementType.FIELD})

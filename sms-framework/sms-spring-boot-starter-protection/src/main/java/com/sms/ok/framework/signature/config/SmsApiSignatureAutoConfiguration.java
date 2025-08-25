@@ -10,7 +10,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 /**
  * HTTP API 签名的自动配置类
  *
- * @author Zhougang
  */
 @Configuration
 //@AutoConfiguration(after = SmsApiSignatureAutoConfiguration.class)

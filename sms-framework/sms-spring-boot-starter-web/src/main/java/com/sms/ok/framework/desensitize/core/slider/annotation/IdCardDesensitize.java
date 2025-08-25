@@ -13,7 +13,6 @@ import java.lang.annotation.Target;
 /**
  * 身份证
  *
- * @author gaibu
  */
 @Documented
 @Target({ElementType.FIELD})

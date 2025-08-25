@@ -14,7 +14,7 @@ import org.springframework.core.task.SimpleAsyncTaskExecutor;
  */
 @AutoConfiguration
 @EnableAsync
-public class YudaoAsyncAutoConfiguration {
+public class SmsAsyncAutoConfiguration {
 
     @Bean
     public BeanPostProcessor threadPoolTaskExecutorBeanPostProcessor() {

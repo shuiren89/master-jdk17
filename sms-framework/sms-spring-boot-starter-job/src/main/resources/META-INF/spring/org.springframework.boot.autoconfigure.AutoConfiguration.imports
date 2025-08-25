@@ -1,2 +1,2 @@
-com.sms.ok.framework.quartz.config.YudaoQuartzAutoConfiguration
-com.sms.ok.framework.quartz.config.YudaoAsyncAutoConfiguration
+com.sms.ok.framework.quartz.config.SmsQuartzAutoConfiguration
+com.sms.ok.framework.quartz.config.SmsAsyncAutoConfiguration

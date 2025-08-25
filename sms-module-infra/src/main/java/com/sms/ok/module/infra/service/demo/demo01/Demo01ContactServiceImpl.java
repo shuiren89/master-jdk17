@@ -19,7 +19,6 @@ import static com.sms.ok.module.infra.enums.ErrorCodeConstants.DEMO01_CONTACT_NO
 /**
  * 示例联系人 Service 实现类
  *
- * @author 芋道源码
  */
 @Service
 @Validated

@@ -18,7 +18,6 @@ import static com.sms.ok.framework.common.util.collection.CollectionUtils.conver
 /**
  * 字典工具类
  *
- * @author 芋道源码
  */
 @Slf4j
 public class DictFrameworkUtils {

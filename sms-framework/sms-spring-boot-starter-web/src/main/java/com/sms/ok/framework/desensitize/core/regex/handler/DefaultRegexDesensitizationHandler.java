@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.regex.annotation.RegexDesensitize;
 /**
  * {@link RegexDesensitize} 的正则脱敏处理器
  *
- * @author gaibu
  */
 public class DefaultRegexDesensitizationHandler extends AbstractRegexDesensitizationHandler<RegexDesensitize> {
 

@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.FixedPhoneDesensi
 /**
  * {@link FixedPhoneDesensitize} 的脱敏处理器
  *
- * @author gaibu
  */
 public class FixedPhoneDesensitization extends AbstractSliderDesensitizationHandler<FixedPhoneDesensitize> {
 

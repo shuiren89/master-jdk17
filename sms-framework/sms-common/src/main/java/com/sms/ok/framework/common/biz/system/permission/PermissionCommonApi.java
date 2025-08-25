@@ -5,7 +5,6 @@ import com.sms.ok.framework.common.biz.system.permission.dto.DeptDataPermissionR
 /**
  * 权限 API 接口
  *
- * @author 芋道源码
  */
 public interface PermissionCommonApi {
 

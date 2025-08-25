@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 /**
  * 文件预签名地址 Response DTO
  *
- * @author owen
  */
 @Data
 @AllArgsConstructor

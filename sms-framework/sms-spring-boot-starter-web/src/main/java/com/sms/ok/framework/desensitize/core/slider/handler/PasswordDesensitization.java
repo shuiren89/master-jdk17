@@ -5,7 +5,6 @@ import com.sms.ok.framework.desensitize.core.slider.annotation.PasswordDesensiti
 /**
  * {@link PasswordDesensitize} 的码脱敏处理器
  *
- * @author gaibu
  */
 public class PasswordDesensitization extends AbstractSliderDesensitizationHandler<PasswordDesensitize> {
     @Override

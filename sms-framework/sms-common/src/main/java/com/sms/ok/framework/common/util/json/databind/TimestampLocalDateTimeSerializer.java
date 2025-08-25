@@ -11,7 +11,6 @@ import java.time.ZoneId;
 /**
  * 基于时间戳的 LocalDateTime 序列化器
  *
- * @author 老五
  */
 public class TimestampLocalDateTimeSerializer extends JsonSerializer<LocalDateTime> {
 

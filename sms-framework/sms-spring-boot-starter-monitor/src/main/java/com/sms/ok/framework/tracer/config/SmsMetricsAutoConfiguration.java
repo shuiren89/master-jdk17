@@ -11,12 +11,11 @@ import org.springframework.context.annotation.Bean;
 /**
  * Metrics 配置类
  *
- * @author 芋道源码
  */
 @AutoConfiguration
 @ConditionalOnClass({MeterRegistryCustomizer.class})
-@ConditionalOnProperty(prefix = "yudao.metrics", value = "enable", matchIfMissing = true) // 允许使用 yudao.metrics.enable=false 禁用 Metrics
-public class YudaoMetricsAutoConfiguration {
+@ConditionalOnProperty(prefix = "sms.metrics", value = "enable", matchIfMissing = true) // 允许使用 sms.metrics.enable=false 禁用 Metrics
+public class SmsMetricsAutoConfiguration {
 
     @Bean
     public MeterRegistryCustomizer<MeterRegistry> metricsCommonTags(
